@@ -11,4 +11,4 @@ var testTwo = ['a','b','c','d'];
 var testArray = theBeatlesPlay(testOne, testTwo);
 for (index = 0; index < testArray.length; index++) {
   console.log(testArray[index]);
-}; //test function
+} //test function
