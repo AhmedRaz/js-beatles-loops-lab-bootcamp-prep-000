@@ -6,4 +6,14 @@ function theBeatlesPlay(arrayMusicians, arrayIns)  {
   return arrayCombine;
 }
 
+function johnLennonFacts(arrayJLFacts)  {
+  var arrayWithExclamation = [];
+  var index = 0;
+  while (index < arrayJLFacts.length)  {
+    arrayWithExclamation.push(arrayJLFacts[index] + '!!!');
+    index++;
+  }
+  return arrayWithExclamation;
+}
+
 
