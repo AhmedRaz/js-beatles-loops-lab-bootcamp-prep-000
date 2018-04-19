@@ -6,8 +6,8 @@ function theBeatlesPlay(arrayMusicians, arrayIns)  {
   return arrayCombine;
 }
 
-var testOne = [1,2,3,4];
-var testTwo = [a,b,c,d];
+var testOne = ['1','2','3','4'];
+var testTwo = ['a','b','c','d'];
 var testArray = theBeatlesPlay(testOne, testTwo);
 for (index = 0; index < testArray.length; index++) {
   console.log(testArray[index]);
