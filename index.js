@@ -20,6 +20,7 @@ function iLoveTheBeatles(loopCheck)  {
   var arrayLoveBeatles = [];
   do  {
     arrayLoveBeatles.push('I love the Beatles!');
+    ++loopCheck;
   } while (loopCheck < 15);
   return arrayLoveBeatles;
 }
