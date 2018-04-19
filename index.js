@@ -24,6 +24,6 @@ const facts = [
 ];
 
 var testFacts = johnLennonFacts(facts);
-for (index = 0; index < testFacts.length, index++) {
+for (index = 0; index < testFacts.length; index++) {
   console.log(testFacts[index]);
 }
