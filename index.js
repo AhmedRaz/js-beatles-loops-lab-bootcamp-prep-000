@@ -16,4 +16,10 @@ function johnLennonFacts(arrayJLFacts)  {
   return arrayWithExclamation;
 }
 
-function 
+function iLoveTheBeatles(loopCheck)  {
+  var arrayLoveBeatles = [];
+  do  {
+    arrayLoveBeatles.push('I love the Beatles!');
+  } while (loopCheck < 15);
+  return arrayLoveBeatles;
+}
